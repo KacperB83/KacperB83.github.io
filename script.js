@@ -1,6 +1,6 @@
 $(document).ready(function() {
    const apiRoot = 'https://infinite-sierra-60690.herokuapp.com/v1/task/';
-   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
+   const trelloApiRoot = 'https://api.trello.com/1/members/kacperbojarski2/boards?key=1033b6bd32d2fd988980cd08aa8c8949&token=b289539556b4a8909c6b869582aa9fcd1adadc7dbd01081d7a154e896e83cef2';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
 
